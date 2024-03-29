@@ -1,17 +1,12 @@
 ---
 title: Git Project Configuration With Husky and ESLint
-description: Git conventions using pre-commit hooks and enforcing code styles.
+slug: git-project-configuration-with-husky-and-eslint
+tags: [Git, Husky, ESLint, Workflow, GitHub]
+authors: [spencerlepine]
 date: 2022-03-20
-draft: false
-slug: /blog/git-project-configuration-with-husky-and-eslint
-tags:
-  - Git
-  - Husky
-  - ESLint
-  - Workflow
-  - GitHub
-thumbnail: 'thumbnail.png'
 ---
+
+![Blog Post Thumbnail](./thumbnail.png)
 
 Working on a project with Git and GitHub is relatively simple. When a project starts to grow however, it is crucial to write clean code that other developers can read. Follow this article to learn how to set up linting and pre-commit hooks for your repository.
 
@@ -21,21 +16,61 @@ Let’s walk through the steps for a one-time setup to configure [husky](https:/
 
 Install the dependencies:
 ```
-npm install eslint husky prettier eslint-config-prettier --save-dev
+npm install husky@4.3.8 lint-staged@10.5.4 prettier@2.8.8 --save-dev
 ```
-Run the commands to install husky and the hooks:
-
-```sh
-npx husky install && npm install
-npx husky add .husky/pre-commit "npx lint-staged"
-npx husky add .husky/pre-push "npx lint-staged && npm test"
+```
+yarn add husky@4.3.8 lint-staged@10.5.4 prettier@2.8.8 --dev
 ```
 
-#### Configure ESLint
+### Package.json Updates
 
-Run `npm init @eslint/config` to create a config file and choose preferred code styles.
+Add the following to your `package.json` to configure all three packages:
+
+```json
+{
+  "name": "@spencer/example-package",
+  // ...
+  "scripts": {
+    "format": "prettier --write ."
+  },
+    "prettier": {
+    "printWidth": 180,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "semi": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "proseWrap": "always",
+    "requirePragma": false,
+    "insertPragma": false,
+    "endOfLine": "lf",
+    "jsxBracketSameLine": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.(js|jsx|ts|tsx|json|css|md)": [
+      "prettier --write"
+    ]
+  }
+}
+```
+
+## Configure ESLint (optional)
+
+First, install this package
+```
+npm install eslint-config-prettier
+```
+
+Then, run `npm init @eslint/config` to create a config file and choose preferred code styles.
 
 Alternatively, use this example file. In the root directory, create `.eslintrc`:
+
 ```json
 {
   "extends": [
@@ -62,31 +97,6 @@ Alternatively, use this example file. In the root directory, create `.eslintrc`:
       }
     ]
   }
-}
-```
-
-#### Configure lint-staged
-Add the following key to `package.json`
-```json
-   ...
-    "lint-staged": {
-        "*.{js,json,md}": [
-          "prettier --write"
-        ],
-        "*.js": "eslint --cache --fix",
-        "*.{js,md}": "prettier --write"
-     },
-```
-
-#### Configure prettier
-In the root directory, create `.prettierrc`:
-
-```json
-{
-  "printWidth": 85,
-  "arrowParens": "always",
-  "semi": false,
-  "tabWidth": 2
 }
 ```
 

@@ -1,16 +1,12 @@
 ---
 title: ManyShiba - The World's Greatest Twitter Bot
-description: Exploration of building a custom Twitter Bot.
+slug: manyshiba-the-worlds-greatest-twitter-bot
+tags: [GitHub, Twitter, Node.js. Bot]
+authors: [spencerlepine]
 date: 2021-09-01
-draft: false
-slug: /blog/manyshiba-the-worlds-greatest-twitter-bot
-tags:
-  - GitHub
-  - Twitter
-  - Node.js
-  - Bot
-thumbnail: 'thumbnail.png'
 ---
+
+![Blog Post Thumbnail](./thumbnail.png)
 
 ManyShiba is the greatest Twitter bot ever created. Bless your soul with a daily photo of the almighty Shiba. Be uplifted by the spirit of this holy and sacred creature to free your soul.
 

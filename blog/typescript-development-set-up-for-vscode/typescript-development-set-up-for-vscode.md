@@ -1,17 +1,10 @@
 ---
 title: TypeScript Development Set Up for VSCode
-description: Follow steps to set up VSCode for a TypeScript project, including auto-compile and format-on-save.
+slug: typescript-development-set-up-for-vscode
+tags: [Workflow, VSCode, TypeScript]
+authors: [spencerlepine]
 date: 2022-10-24
-draft: false
-slug: /blog/typescript-development-set-up-for-vscode
-tags:
-  - TypeScript
-  - VSCode
-  - Workflow
-thumbnail: 'thumbnail.png'
 ---
-
-<!-- MARKDOWN CONTENT -->
 
 ![](./thumbnail.png)
 

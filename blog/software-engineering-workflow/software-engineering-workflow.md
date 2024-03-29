@@ -1,17 +1,12 @@
 ---
 title: Software Engineering Workflow
-description: Collection of software and resources I use for work.
+slug: software-engineering-workflow
+tags: [Workflow, Tools, Software Engineer]
+authors: [spencerlepine]
 date: 2021-08-13
-draft: false
-slug: /blog/software-engineering-workflow
-tags:
-  - Workflow
-  - Tools
-  - Software Engineer
-thumbnail: 'thumbnail.png'
 ---
 
-<!-- MARKDOWN CONTENT -->
+![Blog Post Thumbnail](./thumbnail.png)
 
 This is a collection of resources and my general workflow for Software Engineering. Note: workstation is running MacOS.
 

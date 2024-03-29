@@ -1,23 +1,14 @@
 ---
 title: What I Learned During 100DaysOfCode
-description: A recap of the concepts and skills I acquired during this challenge.
+slug: what-i-learned-during-100-days-of-code
+tags: [Git, Scripts, Terminal, Commands, GitHub]
+authors: [spencerlepine]
 date: 2021-06-26
-draft: false
-slug: /blog/what-i-learned-during-100-days-of-code
-tags:
-  - React
-  - ES6
-  - Toy Problems
-  - API
-  - 100DaysOfCode
-thumbnail: 'thumbnail.png'
 ---
 
-<!-- MARKDOWN CONTENT -->
+![Blog Post Thumbnail](./thumbnail.png)
 
-![](https://miro.medium.com/max/1400/1*n2qkciO2rlQFMSrCwUAZYQ.png)
-
-I recently completed a popular challenge on Twitter name #100DaysOfCode. There is no barrier to entry, and you just need to code for at least 1 hour a day. This is a great challenge to motivate yourself and see your progress alongside others.
+I recently completed a popular challenge on Twitter named #100DaysOfCode. There is no barrier to entry, and you just need to code for at least 1 hour a day. This is a great challenge to motivate yourself and see your progress alongside others.
 
 In my case, it was not my first time coding when I started this. However, the challenge helped me stay dedicated and build upon each skill I learned.
 
@@ -205,7 +196,7 @@ Here is an overview of everything I learned:
 **Projects:**
 -------------
 
-Explore more [projects](https://spencerlepine.com/portfolio) — or check out the ones mentioned in the article:
+Explore more [projects](https://spencerlepine.com) — or check out the ones mentioned in the article:
 
 
 ### QuickCart

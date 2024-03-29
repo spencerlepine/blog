@@ -1,19 +1,14 @@
 ---
 title: Preparing for My Amazon Front End Engineer Interview
-description: My experience and advice for the Amazon Front End Engineer interview.
+slug: preparing-for-my-amazon-front-end-engineer-interview
+tags: [Job Search, Amazon, AWS, LeetCode, Interviews]
+authors: [spencerlepine]
 date: 2022-11-20
-draft: false
-slug: /blog/preparing-for-my-amazon-front-end-engineer-interview
-tags:
-  - Job Search
-  - Amazon
-  - AWS
-  - LeetCode
-  - Interviews
-thumbnail: 'interview.jpeg'
 ---
 
-After my recent interviews with Amazon for the Front End Engineer role, I thought I should share my experience and advice. I got numerous requests on LinkedIn about my interview experience, so I decided to document everything to pass along. 
+![Blog Post Thumbnail](./thumbnail.png)
+
+After my recent interviews with Amazon for the Front End Engineer role, I thought I should share my experience and advice. I got numerous requests on LinkedIn about my interview experience, so I decided to document everything to pass along.
 
 TL;DR - practice LeetCode, practice vanilla JS, always verbalize your thought process, prepare stories to share in the STAR framework, and be confident (or fake it).
 

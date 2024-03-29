@@ -2,7 +2,8 @@
 title: Creating Custom Git Commands
 slug: creating-custom-git-commands
 tags: [Git, Scripts, Terminal, Commands, GitHub]
-author: spencerlepine
+authors: [spencerlepine]
+date: 2021-08-15
 ---
 
 ![Blog Post Thumbnail](./thumbnail.png)

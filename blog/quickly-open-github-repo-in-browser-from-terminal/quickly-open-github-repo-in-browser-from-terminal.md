@@ -1,18 +1,12 @@
 ---
 title: Quickly Open GitHub Repo in Browser From Terminal
-description: Create custom Git commands to open the repository web page in the browser.
+slug: quickly-open-github-repo-in-browser-from-terminal
+tags: [Git, Workflow, GitHub, Scripts, Terminal, Commands]
+authors: [spencerlepine]
 date: 2022-10-22
-draft: false
-slug: /blog/quickly-open-github-repo-in-browser-from-terminal
-tags:
-  - Git
-  - Workflow
-  - GitHub
-  - Scripts
-  - Terminal
-  - Commands
-thumbnail: 'thumbnail.png'
 ---
+
+![Blog Post Thumbnail](./thumbnail.png)
 
 I work a lot with the Git CLI and GitHub repository cloned on my local machine. I need a fast way to open the repository web page in the browser. Here is how I solved this, specifically on macOS.
 
