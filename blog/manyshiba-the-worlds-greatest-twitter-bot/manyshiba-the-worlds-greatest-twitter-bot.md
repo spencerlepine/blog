@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-09-01
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 ManyShiba is the greatest Twitter bot ever created. Bless your soul with a daily photo of the almighty Shiba. Be uplifted by the spirit of this holy and sacred creature to free your soul.
 

@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-08-15
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 Every time I clone a repository from GitHub, I always run the same set of commands. This is prone to typos and simply inconvenient. There is a simple solution of combining each step into a single command that automatically runs everything for us.
 

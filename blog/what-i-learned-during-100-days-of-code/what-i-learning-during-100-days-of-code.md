@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-06-26
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 I recently completed a popular challenge on Twitter named #100DaysOfCode. There is no barrier to entry, and you just need to code for at least 1 hour a day. This is a great challenge to motivate yourself and see your progress alongside others.
 

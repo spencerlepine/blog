@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-10-11
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 After learning about GatsbyJS and building a static Portfolio site and blog, I searched for systems to deploy this website. At this point, I had purchased the domain name through AWS Route53, but I still needed somewhere to host the static files.
 

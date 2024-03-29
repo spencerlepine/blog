@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2022-10-24
 ---
 
-![](./thumbnail.png)
+![](./thumbnail.jpg)
 
 Looking to set up VSCode for a TypeScript project? This article will walk through the initial configuration steps for just that.
 

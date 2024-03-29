@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-08-14
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 Building a README Crawler with Node.js
 

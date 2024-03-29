@@ -111,7 +111,7 @@ const config = {
         },
         {
           property: 'og:image',
-          content: 'https://spencerlepine.github.io/images/thumbnail.png',
+          content: 'https://spencerlepine.github.io/images/thumbnail.jpg',
         },
         {
           property: 'og:description',
@@ -127,7 +127,7 @@ const config = {
         },
         {
           name: 'twitter:image',
-          content: 'https://spencerlepine.github.io/images/thumbnail.png',
+          content: 'https://spencerlepine.github.io/images/thumbnail.jpg',
         },
         {
           name: 'twitter:description',

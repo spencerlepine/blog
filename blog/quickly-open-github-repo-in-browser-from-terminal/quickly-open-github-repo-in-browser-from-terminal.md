@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2022-10-22
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 I work a lot with the Git CLI and GitHub repository cloned on my local machine. I need a fast way to open the repository web page in the browser. Here is how I solved this, specifically on macOS.
 

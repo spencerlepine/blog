@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2021-08-13
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 This is a collection of resources and my general workflow for Software Engineering. Note: workstation is running MacOS.
 

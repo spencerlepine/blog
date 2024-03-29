@@ -6,7 +6,7 @@ authors: [spencerlepine]
 date: 2022-11-20
 ---
 
-![Blog Post Thumbnail](./thumbnail.png)
+![Blog Post Thumbnail](./thumbnail.jpg)
 
 After my recent interviews with Amazon for the Front End Engineer role, I thought I should share my experience and advice. I got numerous requests on LinkedIn about my interview experience, so I decided to document everything to pass along.
 
