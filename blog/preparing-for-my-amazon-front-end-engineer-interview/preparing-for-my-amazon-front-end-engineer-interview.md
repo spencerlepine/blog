@@ -12,7 +12,7 @@ After my recent interviews with Amazon for the Front End Engineer role, I though
 
 TL;DR - practice LeetCode, practice vanilla JS, always verbalize your thought process, prepare stories to share in the STAR framework, and be confident (or fake it).
 
-If you are interested in general advice for landing your first role in tech, I wrote another article about that: [How I Became a Software Engineer at 20 With No CS Degree](TODO)
+If you are interested in general advice for landing your first role in tech, I wrote another article about that: [How I Became a Software Engineer at 20 With No CS Degree](https://sppencerlepine.com/blog-TODO)
 
 For the Amazon FEE interviews, you can find a lot of material online, since thousands of people are applying to these roles. In this article I will share the resources that helped me and give advice on what to study.
 
@@ -68,8 +68,8 @@ I will not go into detail about the specific problems I was given. You should fi
 All of this is biased to my experience, and you should look beyond just this article. Every new day you study, every hour you invest more time, your skills will sharpen. Focus on what you can control.
 
 I hope you got  some value from the article. If you are interested in reading more about my job searching and landing my first role as a software engineer, checkout out these articles:
- - [How I Became a Software Engineer at 20 With No CS Degree](TODO)
- - [My Coding Bootcamp Experience at Hack Reactor](TODO)   
+ - [How I Became a Software Engineer at 20 With No CS Degree](https://sppencerlepine.com/blog-TODO)
+ - [My Coding Bootcamp Experience at Hack Reactor](https://sppencerlepine.com/blog-TODO)   
 
 Follow my journey and connected with me here:
 - LinkedIn: [/in/spencer-lepine](https://www.linkedin.com/in/spencer-lepine/)

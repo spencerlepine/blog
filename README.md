@@ -2,6 +2,10 @@
 
 Proof-of-concept MVP blog built with MDX and [Docusaurus](https://docusaurus.io/), hosted for free on [GitHub pages](https://pages.github.com/)
 
+## TODO LIST
+
+- Add SEO docusaurus plugin/config
+
 ## Local Development
 
 ```sh
