@@ -47,6 +47,7 @@ const config = {
           editUrl: 'https://github.com/spencerlepine/blog',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          postsPerPage: 1,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -106,7 +107,7 @@ const config = {
       metadata: [
         {
           property: 'og:title',
-          content: 'Spencer Lepine | Full Stack Developer',
+          content: 'Spencer Lepine | Software Engineer',
         },
         {
           property: 'og:image',
@@ -114,7 +115,7 @@ const config = {
         },
         {
           property: 'og:description',
-          content: 'Website of Spencer Lepine, a full stack developer.',
+          content: 'Website of Spencer Lepine, a Software Engineer.',
         },
         {
           name: 'twitter:card',
@@ -122,7 +123,7 @@ const config = {
         },
         {
           name: 'twitter:title',
-          content: 'Spencer Lepine | Full Stack Developer',
+          content: 'Spencer Lepine | Software Engineer',
         },
         {
           name: 'twitter:image',
@@ -130,7 +131,7 @@ const config = {
         },
         {
           name: 'twitter:description',
-          content: 'Website of Spencer Lepine, a full stack developer.',
+          content: 'Website of Spencer Lepine, a Software Engineer.',
         },
       ],
     }),
