@@ -2,10 +2,6 @@
 
 Proof-of-concept MVP blog built with MDX and [Docusaurus](https://docusaurus.io/), hosted for free on [GitHub pages](https://pages.github.com/)
 
-## TODO LIST
-
-- Add SEO docusaurus plugin/config
-
 ## Local Development
 
 ```sh
@@ -33,4 +29,4 @@ This command generates static content into the `build` directory and can be serv
 ## Specifications
 
 - Launched: March 2023
-- url: https://spencerlepine.github.io/blog
+- Link: https://spencerlepine.github.io/blog
