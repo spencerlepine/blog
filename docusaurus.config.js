@@ -39,6 +39,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        docs: false, // Optional: disable the docs plugin
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
@@ -81,7 +82,7 @@ const config = {
             ],
           },
           {
-            title: 'Profiles',
+            title: 'Socials',
             items: [
               {
                 label: 'Portfolio',

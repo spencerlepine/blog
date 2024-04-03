@@ -1,10 +1,8 @@
 ---
 title: Creating Custom Git Commands2
 description: Creating custom Git commands to help automate git workflow. # Dev.to
-slug: creating-custom-git-commands
-tags: [Git, Scripts, Terminal, Commands, GitHub] # Docusaurus
-authors: [spencerlepine]
-date: 2021-08-15T12:00
+tags: 'git, terminal, commands' # Dev.to (Max 3)
+canonical_url: null # Dev.to
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

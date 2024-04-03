@@ -3,7 +3,7 @@ title: Portfolio Site Continuous Integration GitHub Action
 slug: portfolio-site-continuous-integration-github-action
 tags: [GitHub, Actions, Repositories, ssh, Ubuntu, DigitalOcean]
 authors: [spencerlepine]
-date: 2021-10-11
+date: 2021-10-11T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

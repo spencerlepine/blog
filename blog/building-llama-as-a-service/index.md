@@ -3,7 +3,7 @@ title: Building Llama as a Service (LaaS)
 slug: building-llama-as-a-service
 tags: [Express, Docker, MongoDB, Node.js, Heroku, GitHub Actions]
 authors: [spencerlepine]
-date: 2022-07-12
+date: 2022-07-12T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

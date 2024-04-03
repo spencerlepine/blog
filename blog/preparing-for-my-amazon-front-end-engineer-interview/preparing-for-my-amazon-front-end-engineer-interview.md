@@ -3,7 +3,7 @@ title: Preparing for My Amazon Front End Engineer Interview
 slug: preparing-for-my-amazon-front-end-engineer-interview
 tags: [Job Search, Amazon, AWS, LeetCode, Interviews]
 authors: [spencerlepine]
-date: 2022-11-20
+date: 2022-11-20T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

@@ -3,7 +3,7 @@ title: Software Engineering Workflow
 slug: software-engineering-workflow
 tags: [Workflow, Tools, Software Engineer]
 authors: [spencerlepine]
-date: 2021-08-13
+date: 2021-08-13T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

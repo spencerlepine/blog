@@ -3,7 +3,7 @@ title: What I Learned During 100DaysOfCode
 slug: what-i-learned-during-100-days-of-code
 tags: [Git, Scripts, Terminal, Commands, GitHub]
 authors: [spencerlepine]
-date: 2021-06-26
+date: 2021-06-26T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

@@ -3,7 +3,7 @@ title: Quickly Open GitHub Repo in Browser From Terminal
 slug: quickly-open-github-repo-in-browser-from-terminal
 tags: [Git, Workflow, GitHub, Scripts, Terminal, Commands]
 authors: [spencerlepine]
-date: 2022-10-22
+date: 2022-10-22T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

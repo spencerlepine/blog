@@ -1,17 +1,22 @@
-name: Medium Article Publish
+name: "[Publish] Medium Article"
 # uses: https://github.com/philips-software/post-to-medium-action
 
 on:
   workflow_dispatch:
     inputs:
-      file:
-        description: 'Path to file: blog/title/index.md'
+      folder:
+        description: 'Article folder name: blog/<THIS_FOLDER_NAME>/index.medium'
         required: true
         type: string
       title:
         description: 'Article Title'
         required: true
         type: string
+      tags:
+        description: 'List of tags (eg. "tag1,tag2")'
+        required: true
+        type: string
+        
 
 jobs:
   post-to-medium:
@@ -24,10 +29,10 @@ jobs:
         uses: philips-software/post-to-medium-action@v0.6.0
         with:
           integration_token: "${{ secrets.MEDIUM_TOKEN }}"
-          file: "${{ inputs.file }}"
+          file: "blog/${{ inputs.folder }}/index.medium"
           content_format: "markdown"
           notify_followers: "false"
-          tags: "test,tag"
+          tags: "${{ inputs.tags }}"
           title: ${{ inputs.title }}
           license: "all-rights-reserved"
-          publish_status: "draft"
+          publish_status: "public"

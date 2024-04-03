@@ -3,7 +3,7 @@ title: Git Project Configuration With Husky and ESLint
 slug: git-project-configuration-with-husky-and-eslint
 tags: [Git, Husky, ESLint, Workflow, GitHub]
 authors: [spencerlepine]
-date: 2022-03-20
+date: 2022-03-20T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

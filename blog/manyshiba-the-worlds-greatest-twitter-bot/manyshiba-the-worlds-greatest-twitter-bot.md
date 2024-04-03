@@ -3,7 +3,7 @@ title: ManyShiba - The World's Greatest Twitter Bot
 slug: manyshiba-the-worlds-greatest-twitter-bot
 tags: [GitHub, Twitter, Node.js. Bot]
 authors: [spencerlepine]
-date: 2021-09-01
+date: 2021-09-01T12:00
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)

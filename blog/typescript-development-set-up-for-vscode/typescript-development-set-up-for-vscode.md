@@ -3,7 +3,7 @@ title: TypeScript Development Set Up for VSCode
 slug: typescript-development-set-up-for-vscode
 tags: [Workflow, VSCode, TypeScript]
 authors: [spencerlepine]
-date: 2022-10-24
+date: 2022-10-24T12:00
 ---
 
 ![](./thumbnail.jpg)
