@@ -1,0 +1,33 @@
+name: Medium Article Publish
+# uses: https://github.com/philips-software/post-to-medium-action
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'Path to file: blog/title/index.md'
+        required: true
+        type: string
+      title:
+        description: 'Article Title'
+        required: true
+        type: string
+
+jobs:
+  post-to-medium:
+    name: Post to Medium
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Create Medium Post
+        uses: philips-software/post-to-medium-action@v0.6.0
+        with:
+          integration_token: "${{ secrets.MEDIUM_TOKEN }}"
+          file: "${{ inputs.file }}"
+          content_format: "markdown"
+          notify_followers: "false"
+          tags: "test,tag"
+          title: ${{ inputs.title }}
+          license: "all-rights-reserved"
+          publish_status: "draft"
