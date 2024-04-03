@@ -1,6 +1,6 @@
 # Spencer Lepine Blog Site
 
-Proof-of-concept MVP blog built with MDX and [Docusaurus](https://docusaurus.io/), hosted for free on [GitHub pages](https://pages.github.com/)
+Personal blog site built with MDX and [Docusaurus](https://docusaurus.io/), hosted for free on [GitHub pages](https://pages.github.com/). Includes automated workflows to publish articles to Medium as well.
 
 ![](./architecture.png)
 
@@ -27,6 +27,7 @@ This command generates static content into the `build` directory and can be serv
 - **Automated Deployments:** free hosting and automated CD with [GitHub pages](https://pages.github.com/)
 - **Auto-generated Website:** [Docusaurus](https://docusaurus.io/) to create static files for a modern blog UI
 - **Linter:** pre-commit hook to enforce consistent Markdown formatting
+- **Medium Publishing:** GitHub Actions workflow to publish articles to Medium account
 
 ## Specifications
 
