@@ -37,6 +37,10 @@ This command generates static content into the `build` directory and can be serv
 
 ## Development
 
+Clean up files, remove doc folder, renamne blog to content??
+Move architecture picture
+Fix twitter preview images
+
 ### Dev.to Articles
 
 - [ ] building-a-readme-crawler-with-node-js
