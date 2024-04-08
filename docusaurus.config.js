@@ -41,6 +41,7 @@ const config = {
       ({
         docs: false, // Optional: disable the docs plugin
         blog: {
+          path: 'content',
           routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
@@ -77,7 +78,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                to: 'https://github.com/spencerlepine/blog',
+                href: 'https://github.com/spencerlepine/blog',
               },
             ],
           },
@@ -108,15 +109,15 @@ const config = {
       metadata: [
         {
           property: 'og:title',
-          content: 'Spencer Lepine | Software Engineer',
+          content: 'Blog - Spencer Lepine',
         },
         {
           property: 'og:image',
-          content: 'https://spencerlepine.github.io/images/thumbnail.jpg',
+          content: 'https://spencerlepine.github.io/blog/img/social-card-thumbnail.jpg',
         },
         {
           property: 'og:description',
-          content: 'Website of Spencer Lepine, a Software Engineer.',
+          content: 'Developer blog of Spencer Lepine, a Software Engineer.',
         },
         {
           name: 'twitter:card',
@@ -124,15 +125,15 @@ const config = {
         },
         {
           name: 'twitter:title',
-          content: 'Spencer Lepine | Software Engineer',
+          content: 'Blog | Spencer Lepine',
         },
         {
           name: 'twitter:image',
-          content: 'https://spencerlepine.github.io/images/thumbnail.jpg',
+          content: 'https://spencerlepine.github.io/blog/img/social-card-thumbnail.jpg',
         },
         {
           name: 'twitter:description',
-          content: 'Website of Spencer Lepine, a Software Engineer.',
+          content: 'Developer blog of Spencer Lepine, a Software Engineer.',
         },
       ],
     }),
