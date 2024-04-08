@@ -8,6 +8,8 @@ date: 2022-11-20T12:00
 
 ![Blog Post Thumbnail](./thumbnail.jpg)
 
+### Intro
+
 After my recent interviews with Amazon for the Front End Engineer role, I thought I should share my experience and advice. I got numerous requests on LinkedIn about my interview
 experience, so I decided to document everything to pass along.
 
@@ -19,7 +21,7 @@ If you are interested in general advice for landing your first role in tech, I w
 For the Amazon FEE interviews, you can find a lot of material online, since thousands of people are applying to these roles. In this article I will share the resources that helped
 me and give advice on what to study.
 
-Study Material & Resources:
+### Study Material & Resources
 
 Remember, your competition will get their hands on any information that helps them perform better in an interview. You should too. Get exposure to all the material you can,
 read/explore these resources to learn as much as possible:
@@ -37,7 +39,7 @@ read/explore these resources to learn as much as possible:
   [Rejected by Amazon - Frontend and Software Engineer - Full Loop Interview Exp with no degree at all](https://www.youtube.com/watch?v=gTIS4waIpG4&ab_channel=CodePhony)
 - Youtube Video: [Amazon Behavioral Interview Questions | Leadership Principles Explained](https://www.youtube.com/watch?v=6p1m2nCE7jE&ab_channel=Exponent)
 
-### Soft skills & Behavioral Questions:
+### Soft skills & Behavioral Questions
 
 First, let’s touch upon soft skills and behavioral preparation. You must learn about the STAR framework, as well as the leadership principles. My advice would be to prepare one
 story per LP, as you will need to share concise answers for behavioral questions. You can practice telling a story (conflict with coworker, time you applied advice from a peer…) in
@@ -49,7 +51,7 @@ An important theme is that technical skills can easily be taught, soft skills ca
 hiring someone, that is what you would look for. Many people have talent. What sets you apart is how you present/market yourself, being memorable/leaving an impression. It is
 essential to communicate well or have story-telling skills.
 
-### Technical Skills & Coding Challenges:
+### Technical Skills & Coding Challenges
 
 Now let’s talk about technical skills and the coding challenges. You may be curious about exactly what I studied to prepare for this interview.
 
@@ -71,7 +73,7 @@ preferred.
 
 Specific to the Amazon interview, they will likely test your frontend skills building a small widget with plain HTML/CSS/JS. You may need to brush up on the DOM methods and syntax.
 I recommend building several small widgets to practice. Make sure you understand selectors, event listeners, and modifying styles with JS. If you are unsure what kinds of widgets I
-am talking about, look through [this](https://www.frontendinterviewhandbook.com/companies/amazon-front-end-interview-questions] page.
+am talking about, look through [this](https://www.frontendinterviewhandbook.com/companies/amazon-front-end-interview-questions) page.
 
 Something to note, they don’t always use an IDE for these interviews. This allows you to focus on the concept and the design. You save time since you aren’t fixing little bugs to
 get an HTML page rendered.
@@ -98,5 +100,5 @@ Follow my journey or connect with me here:
 - LinkedIn: [/in/spencerlepine](https://www.linkedin.com/in/spencerlepine/)
 - Email: [spencer.sayhello@gmail.com](mailto:spencer.sayhello@gmail.com)
 - Portfolio: [spencerlepine.com](https://spencerlepine.com)
-- https://github.com/spencerlepine
+- GitHub: [@spencerlepine](https://github.com/spencerlepine)
 - Twitter: [@spencerlepine](https://twitter.com/spencerlepine)

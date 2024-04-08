@@ -29,7 +29,7 @@ jobs:
         uses: philips-software/post-to-medium-action@v0.6.0
         with:
           integration_token: "${{ secrets.MEDIUM_TOKEN }}"
-          file: "blog/${{ inputs.folder }}/index.medium"
+          file: "content/${{ inputs.folder }}/index.medium"
           content_format: "markdown"
           notify_followers: "false"
           tags: "${{ inputs.tags }}"

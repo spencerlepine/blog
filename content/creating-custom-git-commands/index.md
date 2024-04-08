@@ -1,5 +1,5 @@
 ---
-title: Creating Custom Git Commands2
+title: Creating Custom Git Commands
 description: Creating custom Git commands to help automate git workflow. # Dev.to
 slug: creating-custom-git-commands
 tags: [Git, Scripts, Terminal, Commands, GitHub] # Docusaurus
@@ -66,5 +66,5 @@ Follow my journey or connect with me here:
 - LinkedIn: [/in/spencerlepine](https://www.linkedin.com/in/spencerlepine/)
 - Email: [spencer.sayhello@gmail.com](mailto:spencer.sayhello@gmail.com)
 - Portfolio: [spencerlepine.com](https://spencerlepine.com)
-- https://github.com/spencerlepine
+- GitHub: [@spencerlepine](https://github.com/spencerlepine)
 - Twitter: [@spencerlepine](https://twitter.com/spencerlepine)

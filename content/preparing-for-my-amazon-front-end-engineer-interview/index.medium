@@ -1,10 +1,12 @@
 ---
-title:Preparing for My Amazon Front End Engineer Interview
+title: Preparing for My Amazon Front End Engineer Interview
 description: My experience and advice for the Amazon Front End Engineer interview.
 publish_status: "draft"
 ---
 
 ![Blog Post Thumbnail](./thumbnail.jpg)
+
+## Intro
 
 After my recent interviews with Amazon for the Front End Engineer role, I thought I should share my experience and advice. I got numerous requests on LinkedIn about my interview experience, so I decided to document everything to pass along.
 
@@ -14,7 +16,7 @@ If you are interested in general advice for landing your first role in tech, I w
 
 For the Amazon FEE interviews, you can find a lot of material online, since thousands of people are applying to these roles. In this article I will share the resources that helped me and give advice on what to study.
 
-Study Material & Resources: 
+## Study Material & Resources: 
 
 Remember, your competition will get their hands on any information that helps them perform better in an interview. You should too. Get exposure to all the material you can, read/explore these resources to learn as much as possible:
 	
@@ -53,7 +55,7 @@ Recording myself to solve LeetCode problems helped me a ton (like this [video](h
 
 In FEE interviews, you likely can solve coding problems in any language you prefer. Although you will need to know vanilla JS, you could solve a few problems in Python if preferred.
 
-Specific to the Amazon interview, they will likely test your frontend skills building a small widget with plain HTML/CSS/JS. You may need to brush up on the DOM methods and syntax. I recommend building several small widgets to practice. Make sure you understand selectors, event listeners, and modifying styles with JS. If you are unsure what kinds of widgets I am talking about, look through [this](https://www.frontendinterviewhandbook.com/companies/amazon-front-end-interview-questions] page.
+Specific to the Amazon interview, they will likely test your frontend skills building a small widget with plain HTML/CSS/JS. You may need to brush up on the DOM methods and syntax. I recommend building several small widgets to practice. Make sure you understand selectors, event listeners, and modifying styles with JS. If you are unsure what kinds of widgets I am talking about, look through [this](https://www.frontendinterviewhandbook.com/companies/amazon-front-end-interview-questions) page.
 
 Something to note, they don’t always use an IDE for these interviews. This allows you to focus on the concept and the design. You save time since you aren’t fixing little bugs to get an HTML page rendered.
 
@@ -73,5 +75,5 @@ Follow my journey or connect with me here:
 - LinkedIn: [/in/spencerlepine](https://www.linkedin.com/in/spencerlepine/)
 - Email: [spencer.sayhello@gmail.com](mailto:spencer.sayhello@gmail.com)
 - Portfolio: [spencerlepine.com](https://spencerlepine.com)
-- https://github.com/spencerlepine
+- GitHub: [@spencerlepine](https://github.com/spencerlepine)
 - Twitter: [@spencerlepine](https://twitter.com/spencerlepine)

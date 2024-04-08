@@ -25,7 +25,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # (Optional) The files to publish. Default is "posts/**/*.md"
           # files: 'blog/**/*.md'
-          files: "blog/${{ inputs.folder }}/index.devto"
+          files: "content/${{ inputs.folder }}/index.devto"
           # (Optional) The git branch to use. Default is 'main'.
           branch: main
           conventional_commits: false

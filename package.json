@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "format": "prettier --write ."
+    "format": "prettier --write content/**/*.md"
   },
   "prettier": {
     "printWidth": 180,
@@ -34,7 +34,7 @@
     }
   },
   "lint-staged": {
-    "**/*.(md)": [
+    "content/**/*.md": [
       "prettier --write"
     ]
   },
