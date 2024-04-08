@@ -8,8 +8,8 @@ articles to [Medium](https://medium.com/@spencerlepine) and [Dev.to](https://dev
 ## 💻 Local Development
 
 ```sh
-$ npm install
-$ npm start
+$ yarn install
+$ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -17,7 +17,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## 🏗️ Production Build
 
 ```sh
-$ npm run build
+$ yarn run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -43,7 +43,8 @@ This command generates static content into the `build` directory and can be serv
 
 ## ⏳ Development
 
-Clean up files, remove doc folder, renamne blog to content?? Move architecture picture Fix twitter preview images
+- [feature] Fix twitter preview images
+- [article] Add images to #100daysofCode article from twitter
 
 ### Dev.to Articles
 
