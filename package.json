@@ -1,7 +1,14 @@
 {
-  "name": "my-website",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@spencerlepine/blog",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencerlepine/blog.git"
+  },
+  "author": {
+    "name": "Spencer Lepine",
+    "url": "https://github.com/spencerlepine"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

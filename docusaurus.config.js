@@ -14,21 +14,15 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://spencer.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/blog/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'spencerlepine', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  organizationName: 'spencerlepine',
+  projectName: 'blog',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -39,14 +33,13 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false, // Optional: disable the docs plugin
+        docs: false,
         blog: {
           path: 'content',
+          blogTitle: 'Blog | Spencer Lepine',
+          blogDescription: 'Spencer Lepine\'s Personal Developer Blog',
           routeBasePath: '/',
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/spencerlepine/blog',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
           postsPerPage: 1,
@@ -61,7 +54,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/social-card-thumbnail.jpg',
       navbar: {
         title: 'Spencer Lepine',
@@ -69,6 +61,14 @@ const config = {
           alt: 'Spencer Lepine Logo',
           src: 'img/logo.png',
         },
+        items: [
+          {
+            href: 'https://github.com/spencerlepine/blog',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
+        ]
       },
       footer: {
         style: 'dark',

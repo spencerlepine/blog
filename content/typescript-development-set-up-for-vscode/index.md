@@ -127,7 +127,7 @@ project for my own use, and strengthen my understanding by teaching.
 
 That’s all for today, I hope this article was helpful. If you have any questions, feel free to connect with me.
 
-Follow my journey or connect with me here:
+Follow my journey and connect with me here:
 
 - LinkedIn: [/in/spencerlepine](https://www.linkedin.com/in/spencerlepine/)
 - Email: [spencer.sayhello@gmail.com](mailto:spencer.sayhello@gmail.com)

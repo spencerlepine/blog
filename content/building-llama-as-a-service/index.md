@@ -231,7 +231,7 @@ on my website.
 
 ---
 
-Follow my journey or connect with me here:
+Follow my journey and connect with me here:
 
 - LinkedIn: [/in/spencerlepine](https://www.linkedin.com/in/spencerlepine/)
 - Email: [spencer.sayhello@gmail.com](mailto:spencer.sayhello@gmail.com)
