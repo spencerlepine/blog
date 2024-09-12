@@ -1,6 +1,7 @@
 # Developer Blog ![project status badge](./.github/active.svg) [![Deployment Status Badge](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/netlify.yml/badge.svg?branch=master)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/netlify.yml)
 
-My personal developer blog ([spencerlepine.com/blog](https://spencerlepine.com/blog), a static site built from MDX content. This repository includes automated workflows for cross-posting each article to [Medium.com](https://medium.com) and [Dev.to](https://dev.to) (using GitHub Actions)
+My personal developer blog ([blog.spencerlepine.com](https://blog.spencerlepine.com), a static site built from MDX content. This repository includes automated workflows for
+cross-posting each article to [Medium.com](https://medium.com) and [Dev.to](https://dev.to) (using GitHub Actions)
 
 ![Blog Screenshot](./docs/images/screenshot.png)
 
@@ -15,13 +16,13 @@ My personal developer blog ([spencerlepine.com/blog](https://spencerlepine.com/b
 
 ## Links
 
-- https://spencerlepine.com/blog
+- https://blog.spencerlepine.com
 - https://spencerlepine.medium.com
 - https://dev.to/spencerlepine
 
 ## Architecture
 
-![Architecture Diagram](./docs/images/blog-architecture-diagram.jpg)
+![Architecture Diagram](./docs/images/blog-architecture.png)
 
 ## Cross-posting
 
@@ -29,7 +30,7 @@ My personal developer blog ([spencerlepine.com/blog](https://spencerlepine.com/b
 
 ## Deployment
 
-![Deployment Diagram](./docs/images/blog-deployment-diagram.jpg)
+![Deployment Diagram](./docs/images/blog-deployment.png)
 
 ## Local Development
 
@@ -59,4 +60,7 @@ This command generates static content into the `build` directory and can be serv
 ## TODO
 
 - add actions/ folder, add repos (archive/delete the old two forks)
-- Update spencerlepine.com/package.json build script to clone and download blog assets
+
+## License
+
+[MIT](./LICENSE.txt)
