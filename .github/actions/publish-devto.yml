@@ -1,0 +1,38 @@
+# Re-usable github actions workflow
+name: 'Publish article to dev.to'
+description: 'Publish markdown files as articles to dev.to platform, using assets hosted on GitHub.'
+author: 'spencerlepine'
+branding:
+  icon: 'upload'
+  color: 'gray-dark'
+runs:
+  using: 'node20'
+  main: '.github/actions/publish-devto.js'
+inputs:
+  devto_key:
+    description: 'Your dev.to personal API key to publish and update articles'
+    required: true
+  github_token:
+    description: 'Your GitHub access token to update files with ID once published'
+    required: true
+  files:
+    description: 'One or more glob patterns of files to include'
+    required: false
+    default: 'posts/**/*.md'
+  branch:
+    description: 'The git branch to use'
+    required: false
+    default: 'main'
+  conventional_commits:
+    description: 'Use conventional commits messages'
+    required: false
+    default: false
+  dry_run:
+    description: 'Do not make actual changes on dev.to'
+    required: false
+    default: false
+outputs:
+  result_json:
+    description: 'Publish result as a JSON string'
+  result_summary:
+    description: 'Publish result summary formatted as text'

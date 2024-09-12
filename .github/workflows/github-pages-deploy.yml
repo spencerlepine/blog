@@ -8,6 +8,16 @@ on:
     paths:
       - 'content/**'  # This triggers workflow only for changes within the blog folder
 
+env:
+  # https://giscus.app
+  GISCUS_PROJECT_ID: ${{ secrets.GISCUS_PROJECT_ID }}
+  GISCUS_DISCUSSION_CATEGORY: ${{ secrets.GISCUS_DISCUSSION_CATEGORY }}
+  GISCUS_DISCUSSION_CATEGORY_ID: ${{ secrets.GISCUS_DISCUSSION_CATEGORY_ID }}
+  # https://www.algolia.com - TODO
+  # ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+  # ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+  # ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+
 jobs:
   deploy:
     permissions: write-all
