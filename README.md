@@ -37,16 +37,22 @@ Personal developer blog. Built with [Docusaurus V3](https://docusaurus.io) and M
 
 ## Local Development
 
+### Prerequisites
+
+- **Node.js:** Download and install from https://nodejs.org/en (includes npm)
+
+### Run Locally
+
 ```sh
-$ yarn install
-$ yarn start
+$ npm install
+$ npm start
 # view on http://localhost:3000
 ```
 
 ### Production Build
 
 ```sh
-$ yarn run build
+$ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

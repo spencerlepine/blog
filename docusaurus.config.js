@@ -5,7 +5,15 @@
 require("dotenv").config();
 
 import { themes as prismThemes } from 'prism-react-renderer';
-import config from './config';
+
+const config = {
+  githubUsername: 'spencerlepine',
+  githubRepo: 'blog.spencerlepine.com',
+  postsPerPage: 10
+};
+
+const organizationName = "spencerlepine";
+const projectName = "blog.spencerlepine.com";
 
 /** @type {import('@docusaurus/types').Config} */
 const docusaurusConfig = {
@@ -14,14 +22,14 @@ const docusaurusConfig = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: config.siteUrl,
-  baseUrl: config.baseUrl,
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`, // https://spencerlepine.github.io/blog.spencerlepine.com/
+  // baseUrl: '/', // "https://blog.spencerlepine.com" - TODO custom domain migration
+  organizationName,
+  projectName,
+  trailingSlash: false, // GitHub Pages adds a trailing slash by default that I don't want
 
-  // GitHub pages deployment config.
-  organizationName: 'spencerlepine',
-  projectName: 'blog.spencerlepine.com',
-
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // use instead of 'error' until custom domain TODO
   onBrokenMarkdownLinks: 'warn',
 
   // // comments feature
@@ -55,6 +63,7 @@ const docusaurusConfig = {
       './plugins/recent-blog-posts',
       {
         showReadingTime: true,
+        routeBasePath: '/',
         path: 'content',
         postsPerPage: config.postsPerPage,
         blogSidebarTitle: 'Recent posts',
