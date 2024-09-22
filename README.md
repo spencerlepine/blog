@@ -1,7 +1,7 @@
-# [blog.spencerlepine.com](https://blog.spencerlepine.com)
+# [blog](https://blog)
 
 ![project status badge](./.github/active.svg)
-[![Deployment Status Badge](https://github.com/spencerlepine/blog.spencerlepine.com/actions/workflows/github-pages-deploy.yml/badge.svg?branch=main)](https://github.com/spencerlepine/blog.spencerlepine.com/actions/workflows/github-pages-deploy.yml)
+[![Deployment Status Badge](https://github.com/spencerlepine/blog/actions/workflows/github-pages-deploy.yml/badge.svg?branch=main)](https://github.com/spencerlepine/blog/actions/workflows/github-pages-deploy.yml)
 
 Personal developer blog. Built with [Docusaurus V3](https://docusaurus.io) and MDX content.
 
@@ -19,7 +19,7 @@ Personal developer blog. Built with [Docusaurus V3](https://docusaurus.io) and M
 
 ## Links
 
-- https://blog.spencerlepine.com
+- https://blog
 - https://spencerlepine.medium.com
 - https://dev.to/spencerlepine
 
@@ -59,7 +59,7 @@ This command generates static content into the `build` directory and can be serv
 
 ## TODO
 
-- Migrate to custom domain (blog.spencerlepine.com)
+- Migrate to custom domain (blog)
 - Add Algolia integration
 
 ## License

@@ -8,12 +8,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
   githubUsername: 'spencerlepine',
-  githubRepo: 'blog.spencerlepine.com',
+  githubRepo: 'blog',
   postsPerPage: 10
 };
 
 const organizationName = "spencerlepine";
-const projectName = "blog.spencerlepine.com";
+const projectName = "blog";
 
 /** @type {import('@docusaurus/types').Config} */
 const docusaurusConfig = {
@@ -23,8 +23,8 @@ const docusaurusConfig = {
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`, // https://spencerlepine.github.io/blog.spencerlepine.com/
-  // baseUrl: '/', // "https://blog.spencerlepine.com" - TODO custom domain migration
+  baseUrl: `/${projectName}/`, // https://spencerlepine.github.io/blog/
+  // baseUrl: '/', // "https://blog" - TODO custom domain migration
   organizationName,
   projectName,
   trailingSlash: false, // GitHub Pages adds a trailing slash by default that I don't want
