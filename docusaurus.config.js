@@ -128,13 +128,12 @@ const docusaurusConfig = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Spencer Lepine. Built with Docusaurus.`,
       },
-      // TODO
-      // algolia: {
-      //   appId: process.env.ALGOLIA_APP_ID,
-      //   apiKey: process.env.ALGOLIA_API_KEY,
-      //   indexName: process.env.ALGOLIA_INDEX_NAME,
-      //   placeholder: "Search...",
-      // },
+      algolia: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        placeholder: "Search...",
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
