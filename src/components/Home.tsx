@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import BlogPostItem from '@theme/BlogPostItem';
+import BlogPostItem from '@theme-original/BlogPostItem';
 import { Content } from '@theme/BlogPostPage';
-import PaginatorNavLink from '@theme/PaginatorNavLink';
+import PaginatorNavLink from '@theme-original/PaginatorNavLink';
 import { BlogPostProvider } from '@docusaurus/plugin-content-blog/client'; // v3.5.0
 
 interface HomeProps {

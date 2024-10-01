@@ -25,9 +25,9 @@ export default function FooterWrapper(props: {}) {
         <Giscus
           id="comments"
           repo={`${siteConfig.organizationName}/${siteConfig.projectName}`}
-          repoId={siteConfig.customFields.giscusProjectId as string}
-          category={siteConfig.customFields.giscusDiscussionCategory as string}
-          categoryId={siteConfig.customFields.giscusDiscussionCategoryId as string}
+          repoId={siteConfig.customFields?.giscusProjectId as string}
+          category={siteConfig.customFields?.giscusDiscussionCategory as string}
+          categoryId={siteConfig.customFields?.giscusDiscussionCategoryId as string}
           mapping="title"
           term="Welcome to @giscus/react component!"
           reactionsEnabled="0"

@@ -17,7 +17,7 @@ const projectName = "blog";
 
 /** @type {import('@docusaurus/types').Config} */
 const docusaurusConfig = {
-  title: 'Blog | Spencer Lepine',
+  title: 'Spencer Lepine',
   tagline: 'Spencer Lepine | Software Engineer',
   favicon: 'img/favicon.ico',
 
@@ -80,7 +80,7 @@ const docusaurusConfig = {
     ({
       image: 'img/social-card-thumbnail.jpg',
       navbar: {
-        title: 'Blog | Spencer Lepine',
+        title: 'Spencer Lepine',
         logo: {
           alt: 'Spencer Lepine Logo',
           src: 'img/logo.png',

@@ -28,6 +28,7 @@
       "docusaurus": "docusaurus",
       "start": "docusaurus start",
       "build": "docusaurus build",
+      "build:nextjs": "npm run build && rm -rf '../public/blog' && mv 'build' '../public/blog'",
       "swizzle": "docusaurus swizzle",
       "deploy": "docusaurus deploy",
       "clear": "docusaurus clear",
