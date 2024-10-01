@@ -2,11 +2,12 @@ name: "[Deploy] GitHub Pages"
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'content/**'  # This triggers workflow only for changes within the blog folder
+  # disabled - currently deploying here: https://github.com/spencerlepine/portfolio
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'content/**'  # This triggers workflow only for changes within the blog folder
 
 env:
   # https://giscus.app

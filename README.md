@@ -1,13 +1,8 @@
-# [blog](https://blog)
+# [blog](https://blog) ![project status badge](./.github/active.svg)
 
-![project status badge](./.github/active.svg)
-[![Deployment Status Badge](https://github.com/spencerlepine/blog/actions/workflows/github-pages-deploy.yml/badge.svg?branch=main)](https://github.com/spencerlepine/blog/actions/workflows/github-pages-deploy.yml)
+Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and MDX content.
 
-Personal developer blog. Built with [Docusaurus V3](https://docusaurus.io) and MDX content.
-
-> Note: this repository also includes **GitHub Actions workflows** to cross-post an article to [Medium.com](https://medium.com) or [Dev.to](https://dev.to)
-
-![Blog Screenshot](./docs/images/screenshot.png)
+![Blog Screenshot](./.github/project-thumbnail.png)
 
 ## Built With
 
@@ -15,25 +10,12 @@ Personal developer blog. Built with [Docusaurus V3](https://docusaurus.io) and M
 - **Docusaurus**: `v3` ([documentation](https://docusaurus.io/docs))
 - **MDX Content** (Markdown)
 - **GitHub Actions** ([documentation](https://docs.github.com/actions))
-- **GitHub Pages** ([documentations](https://docs.github.com/pages))
 
 ## Links
 
-- https://blog
+- https://spencerlepine.com/blog
 - https://spencerlepine.medium.com
 - https://dev.to/spencerlepine
-
-## Architecture
-
-![Architecture Diagram](./docs/images/blog-architecture.png)
-
-## Cross-posting
-
-![Cross Posting Diagram](./docs/images/cross-posting-diagram.jpg)
-
-## Deployment
-
-![Deployment Diagram](./docs/images/blog-deployment.png)
 
 ## Local Development
 
@@ -56,11 +38,6 @@ $ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## TODO
-
-- Migrate to custom domain (blog)
-- Add Algolia integration
 
 ## License
 
