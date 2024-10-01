@@ -1,4 +1,4 @@
-# [blog](https://blog) ![project status badge](./.github/active.svg)
+# blog ![project status badge](./.github/active.svg)
 
 Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and MDX content.
 
@@ -16,6 +16,14 @@ Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and M
 - https://spencerlepine.com/blog
 - https://spencerlepine.medium.com
 - https://dev.to/spencerlepine
+
+## Features
+
+![Comments Feature](./.github/comments-feature.png) _Leave comments on posts (using [Giscus](https://giscus.app/))_
+
+![Search Feature](./.github/search-feature.png) _Search blog content (using [Algolio](https://www.algolia.com/))_
+
+![Newsletter Feature](./.github/newsletter-feature.png) _Subscribe to the newsletter (using [HeroTofu](https://herotofu.com/))_
 
 ## Local Development
 
