@@ -7,6 +7,7 @@ require("dotenv").config();
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
+  siteUrl: 'spencerlepine.com/blog',
   githubUsername: 'spencerlepine',
   githubRepo: 'blog',
   postsPerPage: 10
@@ -145,7 +146,7 @@ const docusaurusConfig = {
         },
         {
           property: 'og:image',
-          content: `https://${config.siteUrl}/img/social-card-thumbnail.jpg`,
+          content: `https://${config.siteUrl}/assets/blog-og.jpeg`,
         },
         {
           property: 'og:description',
@@ -161,7 +162,7 @@ const docusaurusConfig = {
         },
         {
           name: 'twitter:image',
-          content: `https://${config.siteUrl}/img/social-card-thumbnail.jpg`,
+          content: `https://${config.siteUrl}/assets/blog-og.jpeg`,
         },
         {
           name: 'twitter:description',
