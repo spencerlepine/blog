@@ -4,6 +4,7 @@ slug: quickly-open-github-repo-in-browser-from-terminal
 tags: [Git, Workflow, GitHub, Scripts, Terminal, Commands]
 authors: [spencerlepine]
 date: 2022-10-22T12:00
+draft: true
 ---
 
 Streamline opening your Git repositories' webpages directly from the macOS terminal by creating a custom script.

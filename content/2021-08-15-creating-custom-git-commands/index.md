@@ -5,6 +5,7 @@ slug: creating-custom-git-commands
 tags: [Git, Scripts, Terminal, Commands, GitHub] # Docusaurus
 authors: [spencerlepine]
 date: 2021-08-15T12:00
+draft: true
 ---
 
 Tired of juggling multiple commands to set up a new GitHub project? This guide introduces a clever scripting solution! We'll create a custom command that automates cloning a

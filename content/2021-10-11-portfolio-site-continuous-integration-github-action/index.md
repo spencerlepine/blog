@@ -4,6 +4,7 @@ slug: portfolio-site-continuous-integration-github-actions
 tags: [GitHub, Actions, Repositories, ssh, Ubuntu, DigitalOcean]
 authors: [spencerlepine]
 date: 2021-10-11T12:00
+draft: true
 ---
 
 This article guides you through automating Gatsby website deployments on a DigitalOcean server using GitHub Actions. We'll explore the limitations of manual deployment and leverage

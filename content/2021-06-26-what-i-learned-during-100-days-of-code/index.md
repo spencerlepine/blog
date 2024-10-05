@@ -1,5 +1,5 @@
 ---
-title: What I Learned During 100DaysOfCode
+title: What I Learned During #100DaysOfCode
 slug: what-i-learned-during-100-days-of-code
 tags: [Junior Engineer, Challenge, Learning]
 authors: [spencerlepine]

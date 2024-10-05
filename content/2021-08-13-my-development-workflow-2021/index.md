@@ -4,6 +4,7 @@ slug: my-development-workflow-2021
 tags: [Workflow, Tools, Software Engineer]
 authors: [spencerlepine]
 date: 2021-08-13T12:00
+draft: true
 ---
 
 My personal developer workflow and laptop setup (macOS) in 2021.

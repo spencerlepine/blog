@@ -1,6 +1,6 @@
 ---
-title: Building a README Crawler With Node.js
-slug: building-a-web-crawler-with-node-js
+title: Building a Web Crawler for GitHub READMEs
+slug: building-a-web-crawler-for-github-readmes
 tags: [GitHub, Repositories, WebCrawler, Node.js]
 authors: [spencerlepine]
 date: 2021-08-14T12:00
