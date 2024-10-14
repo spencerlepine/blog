@@ -6,11 +6,13 @@ authors: [spencerlepine]
 date: 2024-10-14T12:00
 ---
 
+If you’re a mac-based developer like me, and you never quite understood the difference between Bash and Zsh, this article is for you.
+
+<!-- truncate --> 
+
 ![article thumbnail](./thumbnail.png)
 
-If you’re a mac-based developer like me, and you never quite understood the difference between Bash and Zsh, this article is for you. In my experience, configuring the shell and $PATH has always been a confusing and fragile task.
-
-Let’s demystify the shell and define best practices for configuring your local machine.
+In my experience, configuring the shell and $PATH has always been a confusing and fragile task. Let’s demystify the shell and define best practices for configuring your local machine.
 
 > **TL;DR** - Zsh and Bash or both unix shells, Zsh is a beefed up version. macOS defaults to Zsh, linux defaults to Bash. For a local machine, configure Zsh. For scripting and deployments, use Bash (cross-platform).
 
