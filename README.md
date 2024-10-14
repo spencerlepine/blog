@@ -1,23 +1,23 @@
-# blog ![project status badge](./.github/active.svg)
+# Developer blog ![project status badge](./.github/active.svg)
 
 Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and MDX content.
 
 ![Blog Screenshot](./.github/project-thumbnail.png)
 
-## Built With
+## 🛠️ Built With
 
 - **Node.js**: `>=v18`
 - **Docusaurus**: `v3` ([documentation](https://docusaurus.io/docs))
 - **MDX Content** (Markdown)
 - **GitHub Actions** ([documentation](https://docs.github.com/actions))
 
-## Links
+## 🔗 Links
 
 - https://spencerlepine.com/blog
 - https://spencerlepine.medium.com
 - https://dev.to/spencerlepine
 
-## Features
+## ⭐ Features
 
 ![Comments Feature](./.github/comments-feature.png) _Leave comments on posts (using [Giscus](https://giscus.app/))_
 
@@ -25,7 +25,7 @@ Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and M
 
 ![Newsletter Feature](./.github/newsletter-feature.png) _Subscribe to the newsletter (using [HeroTofu](https://herotofu.com/))_
 
-## Local Development
+## 💻 Local Development
 
 ### Prerequisites
 
@@ -34,6 +34,7 @@ Personal developer blog, built with [Docusaurus V3](https://docusaurus.io) and M
 ### Run Locally
 
 ```sh
+$ cp .env.example .env
 $ npm install
 $ npm start
 # view on http://localhost:3000
@@ -42,11 +43,12 @@ $ npm start
 ### Production Build
 
 ```sh
+$ cp .env.example .env
 $ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## License
+## 📄 License
 
-[MIT](./LICENSE.txt)
+[MIT](./LICENSE)

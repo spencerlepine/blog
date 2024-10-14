@@ -1,10 +1,9 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 // docs: https://docusaurus.io/docs/api/docusaurus-config
 
-require("dotenv").config();
-
 import { themes as prismThemes } from 'prism-react-renderer';
+
+require("dotenv").config(); // import environment variables from '.env' file
 
 const config = {
   siteUrl: 'spencerlepine.com/blog',
@@ -13,8 +12,15 @@ const config = {
   postsPerPage: 10
 };
 
-const organizationName = "spencerlepine";
-const projectName = "blog";
+// environment variables (included in bundle)
+const envVars = {
+    giscusDiscussionCategory: process.env.GISCUS_DISCUSSION_CATEGORY,
+    giscusDiscussionCategoryId: process.env.GISCUS_DISCUSSION_CATEGORY_ID,
+    giscusProjectId: process.env.GISCUS_PROJECT_ID,
+    algoliaAppId: process.env.ALGOLIA_APP_ID,
+    algoliaApiKey: process.env.ALGOLIA_API_KEY,
+    algoliaIndexName: process.env.ALGOLIA_INDEX_NAME
+};
 
 /** @type {import('@docusaurus/types').Config} */
 const docusaurusConfig = {
@@ -23,23 +29,24 @@ const docusaurusConfig = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`, // https://spencerlepine.github.io/blog/
-  // baseUrl: '/', // "https://blog" - TODO custom domain migration
-  organizationName,
-  projectName,
-  trailingSlash: false, // GitHub Pages adds a trailing slash by default that I don't want
+  url: `https://${config.githubUsername}.github.io`,
 
-  onBrokenLinks: 'warn', // use instead of 'error' until custom domain TODO
+  baseUrl: `/blog/`, // custom, the default: "/"
+  organizationName: config.githubUsername,
+  projectName: config.githubRepo,
+  trailingSlash: false,
+
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // // comments feature
+  // Giscus Comments
   customFields: {
     giscusDiscussionCategory: process.env.GISCUS_DISCUSSION_CATEGORY,
     giscusDiscussionCategoryId: process.env.GISCUS_DISCUSSION_CATEGORY_ID,
     giscusProjectId: process.env.GISCUS_PROJECT_ID,
   },
 
+  // internationalization (currently only english)
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -51,7 +58,7 @@ const docusaurusConfig = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
-        blog: false, // OVERRIDE - use custom blog plugin (see below)
+        blog: false, // IMPORTANT - use 'recent-blog-posts.js' plugin instead
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -127,12 +134,12 @@ const docusaurusConfig = {
             href: `https://github.com/${config.githubUsername}/${config.githubRepo}`,
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Spencer Lepine. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Spencer Lepine`,
       },
       algolia: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: process.env.ALGOLIA_INDEX_NAME,
+        appId: envVars.algoliaAppId,
+        apiKey: envVars.algoliaApiKey,
+        indexName: envVars.algoliaIndexName,
         placeholder: "Search...",
       },
       prism: {
