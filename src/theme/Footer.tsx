@@ -19,7 +19,7 @@ function Footer(props: {}) {
                 development, I'm also passionate about DevOps, open-source, and everything cloud.
               </div>
               <img
-                src="/img/headshot.png"
+                src="/assets/blog-headshot.png"
                 style={{
                   borderRadius: '50%',
                   height: 130,

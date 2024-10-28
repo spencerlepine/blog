@@ -26,7 +26,7 @@ const envVars = {
 const docusaurusConfig = {
   title: 'Spencer Lepine',
   tagline: 'Spencer Lepine | Software Engineer',
-  favicon: 'img/favicon.ico',
+  favicon: 'assets/favicon.ico',
 
   // Set the production url of your site here
   url: `https://${config.githubUsername}.github.io`,
@@ -86,12 +86,12 @@ const docusaurusConfig = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/social-card-thumbnail.jpg',
+      image: 'assets/social-card-thumbnail.jpg',
       navbar: {
         title: 'Spencer Lepine',
         logo: {
           alt: 'Spencer Lepine Logo',
-          src: 'img/logo.png',
+          src: 'assets/blog-logo.png',
         },
         items: [
           { href: "https://spencerlepine.com", label: "Portfolio", position: "right" },
@@ -108,7 +108,7 @@ const docusaurusConfig = {
         logo: {
           alt: "SL Logo",
           href: "/",
-          src: "img/logo.png",
+          src: "assets/blog-logo.png",
           height: 50,
           width: 50,
         },
@@ -149,7 +149,7 @@ const docusaurusConfig = {
       metadata: [
         {
           property: 'og:title',
-          content: 'Blog | Spencer Lepine',
+          content: 'Spencer Lepine | Developer Blog',
         },
         {
           property: 'og:image',
@@ -157,7 +157,7 @@ const docusaurusConfig = {
         },
         {
           property: 'og:description',
-          content: 'Developer blog of Spencer Lepine, a Software Engineer.',
+          content: 'Explore insights and tutorials from Spencer Lepine, a passionate Software Engineer, on topics including software development, DevOps, and technology trends.',
         },
         {
           name: 'twitter:card',
@@ -165,7 +165,7 @@ const docusaurusConfig = {
         },
         {
           name: 'twitter:title',
-          content: 'Blog | Spencer Lepine',
+          content: 'Spencer Lepine | Developer Blog',
         },
         {
           name: 'twitter:image',
@@ -173,7 +173,15 @@ const docusaurusConfig = {
         },
         {
           name: 'twitter:description',
-          content: 'Developer blog of Spencer Lepine, a Software Engineer.',
+          content: 'Explore insights and tutorials from Spencer Lepine, a passionate Software Engineer, on topics including software development, DevOps, and technology trends.',
+        },
+        {
+          name: 'description',
+          content: 'Discover the latest in software development and DevOps with Spencer Lepine\'s blog, featuring tutorials, insights, and personal experiences.',
+        },
+        {
+          name: 'keywords',
+          content: 'Spencer Lepine, software engineer, developer blog, DevOps, programming, software development, technology trends',
         },
       ],
     }),
