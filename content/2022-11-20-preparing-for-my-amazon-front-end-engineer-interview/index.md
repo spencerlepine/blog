@@ -8,7 +8,7 @@ date: 2022-11-20T12:00
 
 This article covers all the study material and advice that helped me ace my **Amazon Front-End Engineer I (FEE)** interview (November 2022, remote onsite). This is relevant to both the 60min phone interview and final round on-site. <!-- truncate --> I’ll break it down into two sections, technical and behavioral.
 
-> Note, if you’re brand new to the FEE role, I’d recommend skimming through [this article](https://www.interviewkickstart.com/blogs/companies/amazon-front-end-engineer-interview-prep) first.
+> Note, if you’re brand new to the FEE role, I’d recommend skimming through [this article](https://interviewkickstart.com/blogs/companies/amazon-front-end-engineer-interview-prep?utm_source=spencerlephinemedium&utm_medium=spencerlephinemedium) first.
 
 ![My Remote Amazon Interview](./thumbnail.jpg)
 
